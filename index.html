@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript__Challenges</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="d-day__clock"></div>
+        <!-- 날씨 -->
+        <div class="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- 로그인 -->
+      <div class="login">
+        <form id="login__form">
+          <input
+            type="text"
+            class="login__input"
+            placeholder="☺ 이름을 입력해주세요"
+            required
+          />
+        </form>
+      </div>
+      <h1 class="greeting" class="hidden"></h1>
+      <!-- 시계 -->
+      <div class="clock">00:00:00</div>
+
+      <!-- 명언 -->
+      <div class="quotes">
+        <span></span>
+        <span></span>
+      </div>
+      <!-- 투두리스트-->
+      <form class="todo__form">
+        <input
+          type="text"
+          class="todo__input"
+          placeholder="✔ 할일을 입력해주세요"
+        />
+      </form>
+      <div class="todo">
+        <ul class="todo__list"></ul>
+      </div>
+    </div>
+
+    <script src="script/randombg.js"></script>
+    <script src="script/clock.js"></script>
+    <script src="script/greeting.js"></script>
+    <script src="script/todolist.js"></script>
+    <script src="script/weather.js"></script>
+  </body>
+</html>
